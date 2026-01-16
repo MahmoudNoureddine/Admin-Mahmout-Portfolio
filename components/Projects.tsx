@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionId } from '../types';
 import { SectionHeader } from './SectionHeader';
 import { PROJECTS } from '../constants';
-import { Lock, CheckCircle } from 'lucide-react';
+import { Lock, CheckCircle, ExternalLink } from 'lucide-react';
 
 export const Projects: React.FC = () => {
   return (
