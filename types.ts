@@ -5,6 +5,7 @@ export interface Project {
   summary: string;
   status: 'SUCCESS' | 'COMPLETE' | 'IN_PROGRESS';
   tags: string[];
+  link?: string;
 }
 
 export interface Article {
