@@ -48,6 +48,21 @@ export const Projects: React.FC = () => {
                   </span>
                 ))}
               </div>
+              {/* Link Button */}
+              {project.link && (
+                <div className="mt-4 pt-4 border-t border-gray-800">
+                  <a 
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-xs font-mono text-neon-blue hover:text-white transition-colors group/link"
+                  >
+                    <span className="mr-2">&gt;</span>
+                    git view_source
+                    <ExternalLink className="w-3 h-3 ml-2 opacity-0 group-hover/link:opacity-100 transition-opacity" />
+                  </a>
+                </div>
+              )}
 
               {/* Decorative Corner */}
               <div className="absolute top-0 right-0 p-2 opacity-0 group-hover:opacity-100 transition-opacity">
