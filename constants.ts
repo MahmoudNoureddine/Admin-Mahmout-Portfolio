@@ -66,6 +66,7 @@ export const PROJECTS: Project[] = [
     summary: "Designed a centralized log management system using Splunk SIEM to monitor security events. Integrated security automation tools (Shuffle SOAR) and case management (TheHive) to streamline incident response.",
     status: "SUCCESS",
     tags: ["Splunk", "SOAR", "SIEM", "TheHive"]
+    link: "https://github.com/MahmoudNoureddine/
   },
   {
     id: "ENT-02",
@@ -74,6 +75,7 @@ export const PROJECTS: Project[] = [
     summary: "Deployed a secure Microsoft 365 tenant with Entra ID and Hybrid Identity synchronization. Enhanced security posture by implementing Conditional Access policies and Multi-Factor Authentication (MFA).",
     status: "COMPLETE",
     tags: ["Entra ID", "M365", "Intune", "MFA"]
+    link: "https://github.com/MahmoudNoureddine/
   }
 ];
 
